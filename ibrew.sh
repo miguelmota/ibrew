@@ -1,8 +1,9 @@
 #!/bin/bash
 
-# Example usage:
-# $ ./ibrew.sh {search term}
-# $ ./ibrew.sh say
+# Usage:
+# $ ./ibrew.sh {search-term}
+# Examples:
+# $ ./ibrew.sh "say"
 
 query="$1"
 

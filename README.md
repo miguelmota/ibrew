@@ -21,7 +21,7 @@ mv ibrew.sh /usr/local/bin/ibrew
 ## Usage
 
 ```bash
-$ ibrew {search term}
+$ ibrew {search-term}
 ```
 
 ## Example
