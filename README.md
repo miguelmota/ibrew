@@ -1,6 +1,6 @@
 # ibrew
 
-> A simple bash script to search [Homebrew] formulas and install them.
+> A simple bash script to interactively search [Homebrew](https://brew.sh/) formulas and install them.
 
 [![License](http://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/miguelmota/ibrew/master/LICENSE)
 
@@ -8,12 +8,12 @@ It's like the [ibrew](https://www.npmjs.com/package/ibrew) NPM package, but not 
 
 ## Demo
 
-<img src="./assets/screencast.gif" width="580" />
+<img src="./assets/screencast.gif" width="500" />
 
 ## Install
 
 ```bash
-wget https://raw.githubusercontent.com/miguelmota/ibrew/master/ibrew.sh?token=AAKRMDILnWgF-tBQypmRylm9p6iJwMj2ks5a5kS3wA%3D%3D -O ibrew.sh
+wget https://raw.githubusercontent.com/miguelmota/ibrew/master/ibrew.sh -O ibrew.sh
 chmod +x ibrew.sh
 mv ibrew.sh /usr/local/bin/ibrew
 ```
