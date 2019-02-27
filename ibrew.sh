@@ -22,7 +22,8 @@ if [[ ! "$(echo "$output" || grep -i 'no formula')" ]]; then
   exit 1
 fi
 
-options=($(echo "$output" | strings | sed -n '1!p'))
+output=$(echo "$output" | strings | grep -v '==')
+IFS=$'\n' read -rd '' -a options <<< "$output"
 
 prompt="Select option #: "
 
