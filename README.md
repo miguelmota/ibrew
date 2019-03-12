@@ -4,7 +4,7 @@
 
 [![License](http://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/miguelmota/ibrew/master/LICENSE)
 
-It's like the [ibrew](https://www.npmjs.com/package/ibrew) NPM package, but not taking up your entire disk space with node_modules.
+It's like the [ibrew](https://www.npmjs.com/package/ibrew) NPM package, but not taking up your disk space with node_modules.
 
 ## Demo
 
